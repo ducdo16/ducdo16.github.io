@@ -1,0 +1,604 @@
+
+
+body {
+    background-color:#000000;
+    font-family:'arial';
+    font-weight:bold;
+    color:#ffffff;
+    margin: 0px; 
+}
+/* fonts */
+@font-face { 
+    font-family: 'Lamarpen';
+    src: url("lamarpenregular.woff");
+}
+
+@font-face { 
+    font-family: 'Fragment';
+    src: url("fragmentmono-regular.woff");
+}
+@font-face { 
+    font-family: 'Fragment Italic';
+    src: url("fragmentmono-Italic.woff");
+}
+.italic {
+    font-family: 'Fragment Italic';
+}
+
+.sans {
+    font-family: 'Fragment';
+}
+
+.serif {
+    font-family: 'Lamarpen';
+}
+
+.glow {
+    text-shadow:0px 0px 12px white;
+}
+
+img {
+    width: 100%;
+}
+div.icon1 {
+    position: fixed;
+    width: 2%;
+    left: 35px;
+    bottom: 5px;
+}
+div.icon2 {
+    position: fixed;
+    width: 2%;
+    right: 35px;
+    bottom: -5px;
+}
+div.icon3 {
+    position: fixed;
+    width: -1%;
+    left: 35px;
+    top: 20px;
+}
+div.icon4 {
+    position: fixed;
+    width: -1%;
+    right: 35px;
+    top: 28px;
+}
+div.largetext {
+    font-size: 120px;
+    line-height: 150px;
+    text-align: center;
+}
+
+div.textcenter {
+    text-align: center;
+}
+
+div.meman {
+    font-size: 60px;
+    line-height: auto;
+    position: fixed;
+    top:10px;
+    left:0px;
+    width: 100%;
+    text-align: center;
+}
+
+div.headtitle {
+    font-size: 24px;
+    line-height: auto;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 34px;
+    text-align: center;
+}
+div.headtitle1 {
+    font-size: 24px;
+    line-height: auto;
+    margin-top: 56px;
+}
+div.headtitle2 {
+    font-size: 24px;
+    line-height: auto;
+    width: 27%;
+    margin-left: auto;
+}
+div.headtitle3 {
+    font-size: 36px;
+    line-height: auto;
+    width: 32%;
+    margin-left: auto;
+    margin-bottom: -5%;
+}
+div.dots {
+    border-top: 3px dotted white;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.Greetings {
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+div.greettext {
+    text-align: center;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%
+} 
+
+div.datatext {
+    font-size: 12px;
+    color: #8A8A8A;
+    margin-left: 4%;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 12%
+}
+
+div.datatext2 {
+    font-size: 16px;
+    color: #8A8A8A;
+    margin-left: auto;
+    margin-right: auto;
+    width: 34%;
+}
+div.instruction {
+    font-size: 46px;
+    margin-left: 47px;
+    width: 20%;
+}
+div.welcome {
+    font-size: 12px;
+    margin-left: 47px;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    width: 27%;
+}
+div.welcome1 {
+    color: #8A8A8A;
+}
+
+div.youranswer {
+    font-size: 12px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 22%;
+}
+div.name {
+    color: #8A8A8A;
+}
+div.width85{
+    width:90%;
+}
+.introbanner {
+    background-image: url("bg1.png");
+    background-size: cover;
+    padding: 98px;
+}
+
+div.container {
+    width:95%;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+div.width10 {
+    width: 10%;
+
+}
+div.width33 {
+    width: 33%;
+}
+
+div.width35 {
+    width: 34.7%;
+}
+
+div.width25 {
+    width: 25%;
+}
+
+div.width40 {
+    width: 41.67%;
+}
+
+div.width90 {
+    width: 32%;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+div.qanda div {
+    margin-top: 50px;
+}
+div.qanda2 div {
+    margin-top: 100px;
+}
+
+div.mbt5 {
+    margin-bottom: 5px;
+}
+div.mbt15 {
+    margin-bottom: 15px;
+}
+
+div.mbt25 {
+    margin-bottom: 40px;
+}
+
+div.mbt824 {
+    margin-bottom: 824px;
+}
+
+div.mbt118 {
+    margin-bottom:118px;
+}
+div.mbt90 {
+    margin-bottom:90px;
+}
+div.mlauto {
+    margin-left: auto;
+}
+
+div.mrauto {
+    margin-right: auto;
+}
+
+div.data {
+    text-align: center;
+}
+
+.drinkmade {
+    background-image: url(bg3.png);
+    background-size: cover;
+    background-position: 80%;
+    padding: 28%
+}
+.drinkmade0 {
+    background-image: url(bg4.png);
+    background-size: cover;
+    background-position: 80%;
+    padding: 28%
+}
+
+div.waiting {
+    margin-left: 30%;
+    line-height: 79px;
+    margin-bottom: 180px;
+}
+
+div.drinkname {
+    margin-right: 35%;
+    line-height: 87px;
+    margin-bottom: 100px;
+}
+
+span.highlight {
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    
+}
+
+span.highlight1 {
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+}
+
+div.compass {
+    width: 80%;
+    height:725px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+div.vert {
+    height: 100%;
+    width:2px;
+    border-right:2px dotted white;
+    position: absolute;
+    left:50%;
+    margin-left:-2px;
+    top:0px;
+}
+
+div.hori {
+    height: 2px;
+    width:100%;
+    border-top:2px dotted white;
+    position: absolute;
+    top:50%;
+    left:0px;
+}
+
+div.categoryTL {
+    top:21%;
+    left:0;
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    font-size:50px;
+    margin-top:-21px;
+}
+
+div.categoryTR {
+    top:21%;
+    right:0;
+    position: absolute;
+    font-size:50px;
+    margin-top:-21px;
+    width: 50%;
+    text-align: center;
+}
+
+div.categoryBL {
+    bottom: 22%;
+    left:-7px;
+    position: absolute;
+    font-size:50px;
+    margin-bottom:-22px;
+    width: 50%;
+    text-align: center;
+}
+
+div.categoryBR {
+    bottom: 22%;
+    right:0;
+    position: absolute;
+    font-size:50px;
+    margin-bottom:-22px;
+    width: 50%;
+    text-align: center;
+}
+
+div.label {
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+}
+
+div.label1 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    top:100px;
+    right:20px;
+}
+
+div.label11 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    top: 250px;
+    right: 400px;
+    display: inline-block;
+}
+
+div.label2 {
+    position: absolute;
+    top: 200px;
+    left: 32px;
+}
+
+div.label21 {
+    position: absolute;
+   font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    top: 100px;
+    left: 120px;
+}
+
+div.label22 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    top: 120px;
+    left: 350px;
+}
+
+div.label23 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    top: 290px;
+    left: 400px;
+}
+div.label233 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    top: 100px;
+    left: 700px;
+}
+
+div.label24 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    bottom: 240px;
+    left: 40px;
+}
+div.label244 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    bottom: 30px;
+    left:190px;
+}
+
+div.label25 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    bottom: 180px;
+    left: 300px;
+}
+
+div.label26 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    bottom: 240px;
+    right: 320px;
+}
+
+div.label266 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    bottom: 50px;
+    right: 30px;
+}
+div.label267 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    bottom: 170px;
+    right: 370px;
+}
+
+div.label27 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    bottom: 100px;
+    right: 100px;
+}
+
+
+div.label28 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    bottom: 30px;
+    right: 400px;
+}
+
+div.label29 {
+    position: absolute;
+    font-size: 12px;
+    border:1px solid white;
+    text-shadow:10px 0px 10px white;
+    padding:10px;
+    display: inline-block;
+    bottom: 250px;
+    right: 40px;
+}
+
+div.keywords {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    margin-left: -50px;
+    margin-top: -25px;
+}
+.drinkpic {
+    background-image: url(drinkpic.png);
+    background-size: cover;
+    background-position: 80%;
+    padding: 28%;
+    margin-bottom: -1%;
+}
+div.pleaseanswer {
+    color: #8A8A8A;
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: 5px;
+    width: 56%;
+}
+div.alter {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3%;
+    width: 32%;
+}
+div.hit {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.restart {
+    position: relative;
+    font-size: 12px;
+    border: 1px solid white;
+    text-shadow: 10px 0px 10px white;
+    padding: 10px 20px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.power {
+    font-size: 10px;
+    color: #797979;
+    text-align: center; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.drinkmaking {
+    animation: fadeIn 2s ease-in-out;
+} 
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
